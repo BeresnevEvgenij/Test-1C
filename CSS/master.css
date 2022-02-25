@@ -1,0 +1,46 @@
+*{
+
+}
+main{
+  padding: 1px;
+  width: 1000px;
+  background: #ffff65;
+  box-shadow: 5px 5px 5px 5px black;
+  margin: auto;
+}
+.conteiner{
+  margin: 30px;
+  width: 350px;
+  border: 1px solid black;
+
+}
+.nomer{
+
+}
+span{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+h4{
+  border-bottom: 2px solid black;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+li{
+  width: auto;
+}
+li:active{
+  border-radius: 5px;
+
+  transition: 0.5s;
+
+}
+.green:active{
+  background: green;
+  transition: 0.5s;
+}
+.red:active{
+  background: #b21101;
+
+}
