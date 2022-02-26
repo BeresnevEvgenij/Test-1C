@@ -1,18 +1,24 @@
 *{
 
 }
+body, html{
+  background: #eeee99;
+  overflow-x: hidden;
+}
 main{
+  display: flex;
+  flex-wrap: wrap;
   padding: 1px;
   width: 1000px;
   background: #ffff65;
-  box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 0px 0px 13px -4px black;
   margin: auto;
 }
 .conteiner{
   margin: 30px;
-  width: 350px;
+  width: 400px;
+  height: auto;
   border: 1px solid black;
-
 }
 .nomer{
 
@@ -33,14 +39,43 @@ li{
 li:active{
   border-radius: 5px;
 
-  transition: 0.5s;
-
 }
 .green:active{
   background: green;
-  transition: 0.5s;
 }
 .red:active{
   background: #b21101;
+}
 
-} 
+
+
+/* ----MEDIA---- */
+@media screen and (max-width: 1037){
+  main{
+    width: 800px;
+
+
+}
+}
+@media screen and (max-width: 375px){
+  main{
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  body{
+  overflow-x:  hidden;
+}
+
+  .conteiner{
+  margin: 7px;
+  width: 319px;
+  font-weight: 10px;
+}
+  .nomer{
+  font-size: 15px;
+}
+
+}
