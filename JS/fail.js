@@ -9,3 +9,10 @@
 //
 //   }
 ////////////////////////////////////////////////////////////////////
+
+// document.querySelector('.red').onclick = function() {
+//   document.querySelector(".red").style.backgroundColor = "red";
+// };
+// document.querySelector('.green').onclick = function() {
+//   document.querySelector(".green").style.backgroundColor = "green";
+// };
