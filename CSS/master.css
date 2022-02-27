@@ -10,7 +10,7 @@ main{
   flex-wrap: wrap;
   padding: 1px;
   width: 1000px;
-  background: #ffff65;
+  /* background: #ffff65; */
   /* box-shadow: 0px 0px 13px -4px black; */
   margin: auto;
 }
@@ -53,8 +53,6 @@ li:active{
 @media screen and (max-width: 1037){
   main{
     width: 800px;
-
-
 }
 }
 @media screen and (max-width: 400px){
@@ -68,7 +66,6 @@ li:active{
   body{
   overflow-x:  hidden;
 }
-
   .conteiner{
   margin: 7px;
   width: 319px;
