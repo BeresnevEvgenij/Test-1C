@@ -2,7 +2,7 @@
 
 }
 body, html{
-  background: #eeee99;
+  /* background: #eeee99; */
   overflow-x: hidden;
 }
 main{
@@ -57,7 +57,7 @@ li:active{
 
 }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
   main{
   border-radius: 8px;
   width: 100%;
