@@ -1,9 +1,7 @@
-*{
 
-}
 body, html{
   /* background: #eeee99; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 main{
   display: flex;
