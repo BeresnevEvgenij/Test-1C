@@ -19,7 +19,7 @@ main{
   border: 1px solid black;
 }
 .nomer{
-  color: black;
+  /* color: black; */
 }
 .text{
   display: none;
@@ -67,9 +67,8 @@ li:active{
 
 }
   .conteiner{
-  margin: 7px;
+  margin: 14px;
   width: 319px;
-  font-weight: 10px;
 }
   .nomer{
   font-size: 15px;
