@@ -37,15 +37,14 @@ h4{
 li{
   background: none;
 }
-li:checked{
+li:active{
   border-radius: 5px;
+  background: #b21101;
 }
 .green:active{
   background: green;
 }
-.red:active{
-  background: #b21101;
-}
+
 
 /* ----MEDIA---- */
 @media screen and (max-width: 1037){
@@ -79,12 +78,9 @@ li:checked{
 
  </div>
 <ul>
+
  <li class="green"></li>
- <li class="red"></li>
- <li class="red"></li>
- <li class="red"></li>
- <li class="red"></li>
- <li class="red"></li>
+
  </ul>
 </div>
 
